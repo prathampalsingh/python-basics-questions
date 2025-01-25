@@ -1,0 +1,31 @@
+def full_piramid(n):
+#full piramid
+    for row in range(n-1):
+        #half reverse left piramid
+        for col in range(row,n-1):
+              print(' ', end="")
+        #half left without row + 1 to get the top in next for loop piramid
+        for col in range(row ):
+              print(col, end="")
+        #half left piramid
+        for col in range(row+1 ):
+              print(col, end="")
+        print("")
+#full reverse piramid
+    for row in range(n):
+        #half-left piramd
+        for col in range(row):
+            print(' ', end="")
+        #half reverse left with n - 1 so the next for loop can complete the bottom 4 piramid
+        for col in range(row,n-1):
+              print(col, end="")
+        #half reverse left piramid
+        for col in range(row,n):
+              print(col, end="")
+        print("")
+
+
+
+# Example: Print a half pyramid with 5 rows
+n = int(input("enter a number : "))
+full_piramid(n)
