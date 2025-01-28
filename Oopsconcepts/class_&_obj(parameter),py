@@ -1,0 +1,14 @@
+class Bank:
+  #passing parameter in function
+  def __init__(self,name,rating,networth):
+    self.bank_name = name
+    self.bank_rating = rating
+    self.bank_networth = networth
+  
+  def get_data(self):
+    print(f"{self.bank_name} is a {self.bank_rating} rated bank with a networth of {self.bank_networth}")
+
+
+
+obj = Bank("abc","AAA",1000)
+obj.get_data()

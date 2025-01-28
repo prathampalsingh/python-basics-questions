@@ -20,4 +20,3 @@ input_list = [1, 8, 9, 22, 3, 9, "hello", 12 , "HI"]
 print(process_list(input_list))
 
 
-

@@ -17,7 +17,7 @@ print("second last element: ", second_last_element)
 arr.pop(0)
 arr.insert(0,1)
 #DOES THE SAME STUFF!!!
-arr[1] = 2
+
 
 print(arr)
 
